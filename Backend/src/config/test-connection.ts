@@ -1,4 +1,4 @@
-import {pool} from "./Database.js";
+import {pool} from "./database.js";
 
 try {
   const result = await pool.query("SELECT NOW() AS Horario");
